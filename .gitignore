@@ -1,0 +1,7 @@
+out
+target
+*.swp
+*.arx
+*.tar
+.idea
+*.iml
