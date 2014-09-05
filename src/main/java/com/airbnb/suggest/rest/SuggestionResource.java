@@ -33,6 +33,7 @@ public class SuggestionResource {
 
     if (!places.contains(place)) {
       places.add(place);
+logger.info("place liked");
     }
   }
 
@@ -42,6 +43,7 @@ public class SuggestionResource {
     Collections.shuffle(places);
     Place place = places.get(0);
     logger.info(place.toString());
+logger.info("place suggested liked");
     return place;
   }
 
